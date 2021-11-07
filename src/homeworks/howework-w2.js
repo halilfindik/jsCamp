@@ -14,12 +14,12 @@ console.log("________________________ODEV-1________________________")
 function asal_mi(...numbers) {
     for (let i = 0; i < numbers.length; i++) {
         let tekrar = 0;
-        for (let j = 1; j < numbers[i]; j++) {
+        for (let j = 2; j < numbers[i]; j++) {
             if (numbers[i] % j == 0) {
                 tekrar++;
             }
         }
-        if (tekrar == 1) {
+        if (tekrar == 0) {
             console.log(numbers[i] + ": Asal Sayı")
         }
         else {
